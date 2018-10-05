@@ -7,13 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5CFF4241AAF1C48C978C3F3F /* Pods_HueAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2591186B1246ECEBB3F28AD5 /* Pods_HueAppTests.framework */; };
+		8B6BD674477C899AD65BAB38 /* Pods_HueApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 948D9850BED8C7073E3FE263 /* Pods_HueApp.framework */; };
+		BFD8F0DD71653D0DAB44F4AE /* Pods_HueAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E20D7351B99AB20BC4CE9E4C /* Pods_HueAppUITests.framework */; };
 		F4C11B16216805880062F163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C11B15216805880062F163 /* AppDelegate.swift */; };
-		F4C11B18216805880062F163 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C11B17216805880062F163 /* ViewController.swift */; };
 		F4C11B1B216805880062F163 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C11B19216805880062F163 /* Main.storyboard */; };
 		F4C11B1D2168058D0062F163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C11B1C2168058D0062F163 /* Assets.xcassets */; };
 		F4C11B202168058D0062F163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C11B1E2168058D0062F163 /* LaunchScreen.storyboard */; };
 		F4C11B2B2168058D0062F163 /* HueAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C11B2A2168058D0062F163 /* HueAppTests.swift */; };
 		F4C11B362168058D0062F163 /* HueAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C11B352168058D0062F163 /* HueAppUITests.swift */; };
+		F4C11B44216809000062F163 /* Light.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C11B43216809000062F163 /* Light.swift */; };
+		F4C11B4621680A150062F163 /* LightTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C11B4521680A150062F163 /* LightTableViewController.swift */; };
+		F4C11B4821680EB50062F163 /* LightApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C11B4721680EB50062F163 /* LightApiManager.swift */; };
+		F4C11B4A21680F270062F163 /* LightApiManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C11B4921680F270062F163 /* LightApiManagerDelegate.swift */; };
+		F4C11B4C21680F8A0062F163 /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C11B4B21680F8A0062F163 /* Config.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		22FB508B8DC32B4184360DAE /* Pods-HueAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HueAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HueAppTests/Pods-HueAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		2591186B1246ECEBB3F28AD5 /* Pods_HueAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HueAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C499C9ACFA704C9E68953D /* Pods-HueApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HueApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HueApp/Pods-HueApp.debug.xcconfig"; sourceTree = "<group>"; };
+		4A0CCD3DA3A31529C660B01F /* Pods-HueApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HueApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-HueApp/Pods-HueApp.release.xcconfig"; sourceTree = "<group>"; };
+		89E4B81C9AD77DDF495D8FA8 /* Pods-HueAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HueAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HueAppTests/Pods-HueAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		948D9850BED8C7073E3FE263 /* Pods_HueApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HueApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E0AEE412173158F54DDBACA /* Pods-HueAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HueAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HueAppUITests/Pods-HueAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B57535C3BCE83A91BD9C5B15 /* Pods-HueAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HueAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HueAppUITests/Pods-HueAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E20D7351B99AB20BC4CE9E4C /* Pods_HueAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HueAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C11B12216805880062F163 /* HueApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HueApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C11B15216805880062F163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4C11B17216805880062F163 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F4C11B1A216805880062F163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4C11B1C2168058D0062F163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4C11B1F2168058D0062F163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +62,11 @@
 		F4C11B312168058D0062F163 /* HueAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HueAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C11B352168058D0062F163 /* HueAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueAppUITests.swift; sourceTree = "<group>"; };
 		F4C11B372168058D0062F163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C11B43216809000062F163 /* Light.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Light.swift; sourceTree = "<group>"; };
+		F4C11B4521680A150062F163 /* LightTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTableViewController.swift; sourceTree = "<group>"; };
+		F4C11B4721680EB50062F163 /* LightApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightApiManager.swift; sourceTree = "<group>"; };
+		F4C11B4921680F270062F163 /* LightApiManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightApiManagerDelegate.swift; sourceTree = "<group>"; };
+		F4C11B4B21680F8A0062F163 /* Config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B6BD674477C899AD65BAB38 /* Pods_HueApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CFF4241AAF1C48C978C3F3F /* Pods_HueAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFD8F0DD71653D0DAB44F4AE /* Pods_HueAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		675FE9C34F45A6D3790B8748 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				948D9850BED8C7073E3FE263 /* Pods_HueApp.framework */,
+				2591186B1246ECEBB3F28AD5 /* Pods_HueAppTests.framework */,
+				E20D7351B99AB20BC4CE9E4C /* Pods_HueAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DB53B2C88D720E958F0ADBD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30C499C9ACFA704C9E68953D /* Pods-HueApp.debug.xcconfig */,
+				4A0CCD3DA3A31529C660B01F /* Pods-HueApp.release.xcconfig */,
+				89E4B81C9AD77DDF495D8FA8 /* Pods-HueAppTests.debug.xcconfig */,
+				22FB508B8DC32B4184360DAE /* Pods-HueAppTests.release.xcconfig */,
+				9E0AEE412173158F54DDBACA /* Pods-HueAppUITests.debug.xcconfig */,
+				B57535C3BCE83A91BD9C5B15 /* Pods-HueAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F4C11B09216805870062F163 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +127,8 @@
 				F4C11B292168058D0062F163 /* HueAppTests */,
 				F4C11B342168058D0062F163 /* HueAppUITests */,
 				F4C11B13216805880062F163 /* Products */,
+				8DB53B2C88D720E958F0ADBD /* Pods */,
+				675FE9C34F45A6D3790B8748 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +146,15 @@
 			isa = PBXGroup;
 			children = (
 				F4C11B15216805880062F163 /* AppDelegate.swift */,
-				F4C11B17216805880062F163 /* ViewController.swift */,
 				F4C11B19216805880062F163 /* Main.storyboard */,
 				F4C11B1C2168058D0062F163 /* Assets.xcassets */,
 				F4C11B1E2168058D0062F163 /* LaunchScreen.storyboard */,
 				F4C11B212168058D0062F163 /* Info.plist */,
+				F4C11B43216809000062F163 /* Light.swift */,
+				F4C11B4521680A150062F163 /* LightTableViewController.swift */,
+				F4C11B4721680EB50062F163 /* LightApiManager.swift */,
+				F4C11B4921680F270062F163 /* LightApiManagerDelegate.swift */,
+				F4C11B4B21680F8A0062F163 /* Config.swift */,
 			);
 			path = HueApp;
 			sourceTree = "<group>";
@@ -132,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4C11B3A2168058D0062F163 /* Build configuration list for PBXNativeTarget "HueApp" */;
 			buildPhases = (
+				AA783F7D63E15912CAC326BC /* [CP] Check Pods Manifest.lock */,
 				F4C11B0E216805880062F163 /* Sources */,
 				F4C11B0F216805880062F163 /* Frameworks */,
 				F4C11B10216805880062F163 /* Resources */,
+				77957245FD9CA645BF2E2950 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4C11B3D2168058D0062F163 /* Build configuration list for PBXNativeTarget "HueAppTests" */;
 			buildPhases = (
+				A524C86588EFDD4625BD8C52 /* [CP] Check Pods Manifest.lock */,
 				F4C11B222168058D0062F163 /* Sources */,
 				F4C11B232168058D0062F163 /* Frameworks */,
 				F4C11B242168058D0062F163 /* Resources */,
@@ -167,6 +222,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F4C11B402168058D0062F163 /* Build configuration list for PBXNativeTarget "HueAppUITests" */;
 			buildPhases = (
+				62517CFA684003E2DFDAF33B /* [CP] Check Pods Manifest.lock */,
 				F4C11B2D2168058D0062F163 /* Sources */,
 				F4C11B2E2168058D0062F163 /* Frameworks */,
 				F4C11B2F2168058D0062F163 /* Resources */,
@@ -251,13 +307,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		62517CFA684003E2DFDAF33B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HueAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77957245FD9CA645BF2E2950 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-HueApp/Pods-HueApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HueApp/Pods-HueApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A524C86588EFDD4625BD8C52 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HueAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA783F7D63E15912CAC326BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HueApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F4C11B0E216805880062F163 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4C11B18216805880062F163 /* ViewController.swift in Sources */,
+				F4C11B4A21680F270062F163 /* LightApiManagerDelegate.swift in Sources */,
+				F4C11B4621680A150062F163 /* LightTableViewController.swift in Sources */,
+				F4C11B4821680EB50062F163 /* LightApiManager.swift in Sources */,
+				F4C11B44216809000062F163 /* Light.swift in Sources */,
 				F4C11B16216805880062F163 /* AppDelegate.swift in Sources */,
+				F4C11B4C21680F8A0062F163 /* Config.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +583,7 @@
 		};
 		F4C11B3B2168058D0062F163 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30C499C9ACFA704C9E68953D /* Pods-HueApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +601,7 @@
 		};
 		F4C11B3C2168058D0062F163 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A0CCD3DA3A31529C660B01F /* Pods-HueApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +619,7 @@
 		};
 		F4C11B3E2168058D0062F163 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E4B81C9AD77DDF495D8FA8 /* Pods-HueAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,6 +640,7 @@
 		};
 		F4C11B3F2168058D0062F163 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22FB508B8DC32B4184360DAE /* Pods-HueAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +661,7 @@
 		};
 		F4C11B412168058D0062F163 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E0AEE412173158F54DDBACA /* Pods-HueAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -523,6 +681,7 @@
 		};
 		F4C11B422168058D0062F163 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B57535C3BCE83A91BD9C5B15 /* Pods-HueAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
