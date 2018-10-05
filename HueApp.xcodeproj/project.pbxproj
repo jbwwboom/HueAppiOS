@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4C11B16216805880062F163 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C11B15216805880062F163 /* AppDelegate.swift */; };
+		F4C11B18216805880062F163 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C11B17216805880062F163 /* ViewController.swift */; };
+		F4C11B1B216805880062F163 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C11B19216805880062F163 /* Main.storyboard */; };
+		F4C11B1D2168058D0062F163 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4C11B1C2168058D0062F163 /* Assets.xcassets */; };
+		F4C11B202168058D0062F163 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4C11B1E2168058D0062F163 /* LaunchScreen.storyboard */; };
+		F4C11B2B2168058D0062F163 /* HueAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C11B2A2168058D0062F163 /* HueAppTests.swift */; };
+		F4C11B362168058D0062F163 /* HueAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C11B352168058D0062F163 /* HueAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4C11B272168058D0062F163 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4C11B0A216805880062F163 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4C11B11216805880062F163;
+			remoteInfo = HueApp;
+		};
+		F4C11B322168058D0062F163 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4C11B0A216805880062F163 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4C11B11216805880062F163;
+			remoteInfo = HueApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4C11B12216805880062F163 /* HueApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HueApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C11B15216805880062F163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4C11B17216805880062F163 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4C11B1A216805880062F163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4C11B1C2168058D0062F163 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4C11B1F2168058D0062F163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4C11B212168058D0062F163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C11B262168058D0062F163 /* HueAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HueAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C11B2A2168058D0062F163 /* HueAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueAppTests.swift; sourceTree = "<group>"; };
+		F4C11B2C2168058D0062F163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4C11B312168058D0062F163 /* HueAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HueAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4C11B352168058D0062F163 /* HueAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HueAppUITests.swift; sourceTree = "<group>"; };
+		F4C11B372168058D0062F163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4C11B0F216805880062F163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C11B232168058D0062F163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C11B2E2168058D0062F163 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4C11B09216805870062F163 = {
+			isa = PBXGroup;
+			children = (
+				F4C11B14216805880062F163 /* HueApp */,
+				F4C11B292168058D0062F163 /* HueAppTests */,
+				F4C11B342168058D0062F163 /* HueAppUITests */,
+				F4C11B13216805880062F163 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4C11B13216805880062F163 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4C11B12216805880062F163 /* HueApp.app */,
+				F4C11B262168058D0062F163 /* HueAppTests.xctest */,
+				F4C11B312168058D0062F163 /* HueAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4C11B14216805880062F163 /* HueApp */ = {
+			isa = PBXGroup;
+			children = (
+				F4C11B15216805880062F163 /* AppDelegate.swift */,
+				F4C11B17216805880062F163 /* ViewController.swift */,
+				F4C11B19216805880062F163 /* Main.storyboard */,
+				F4C11B1C2168058D0062F163 /* Assets.xcassets */,
+				F4C11B1E2168058D0062F163 /* LaunchScreen.storyboard */,
+				F4C11B212168058D0062F163 /* Info.plist */,
+			);
+			path = HueApp;
+			sourceTree = "<group>";
+		};
+		F4C11B292168058D0062F163 /* HueAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4C11B2A2168058D0062F163 /* HueAppTests.swift */,
+				F4C11B2C2168058D0062F163 /* Info.plist */,
+			);
+			path = HueAppTests;
+			sourceTree = "<group>";
+		};
+		F4C11B342168058D0062F163 /* HueAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4C11B352168058D0062F163 /* HueAppUITests.swift */,
+				F4C11B372168058D0062F163 /* Info.plist */,
+			);
+			path = HueAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4C11B11216805880062F163 /* HueApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C11B3A2168058D0062F163 /* Build configuration list for PBXNativeTarget "HueApp" */;
+			buildPhases = (
+				F4C11B0E216805880062F163 /* Sources */,
+				F4C11B0F216805880062F163 /* Frameworks */,
+				F4C11B10216805880062F163 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HueApp;
+			productName = HueApp;
+			productReference = F4C11B12216805880062F163 /* HueApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4C11B252168058D0062F163 /* HueAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C11B3D2168058D0062F163 /* Build configuration list for PBXNativeTarget "HueAppTests" */;
+			buildPhases = (
+				F4C11B222168058D0062F163 /* Sources */,
+				F4C11B232168058D0062F163 /* Frameworks */,
+				F4C11B242168058D0062F163 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4C11B282168058D0062F163 /* PBXTargetDependency */,
+			);
+			name = HueAppTests;
+			productName = HueAppTests;
+			productReference = F4C11B262168058D0062F163 /* HueAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4C11B302168058D0062F163 /* HueAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4C11B402168058D0062F163 /* Build configuration list for PBXNativeTarget "HueAppUITests" */;
+			buildPhases = (
+				F4C11B2D2168058D0062F163 /* Sources */,
+				F4C11B2E2168058D0062F163 /* Frameworks */,
+				F4C11B2F2168058D0062F163 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4C11B332168058D0062F163 /* PBXTargetDependency */,
+			);
+			name = HueAppUITests;
+			productName = HueAppUITests;
+			productReference = F4C11B312168058D0062F163 /* HueAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4C11B0A216805880062F163 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = Jop;
+				TargetAttributes = {
+					F4C11B11216805880062F163 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					F4C11B252168058D0062F163 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F4C11B11216805880062F163;
+					};
+					F4C11B302168058D0062F163 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F4C11B11216805880062F163;
+					};
+				};
+			};
+			buildConfigurationList = F4C11B0D216805880062F163 /* Build configuration list for PBXProject "HueApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4C11B09216805870062F163;
+			productRefGroup = F4C11B13216805880062F163 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4C11B11216805880062F163 /* HueApp */,
+				F4C11B252168058D0062F163 /* HueAppTests */,
+				F4C11B302168058D0062F163 /* HueAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4C11B10216805880062F163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C11B202168058D0062F163 /* LaunchScreen.storyboard in Resources */,
+				F4C11B1D2168058D0062F163 /* Assets.xcassets in Resources */,
+				F4C11B1B216805880062F163 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C11B242168058D0062F163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C11B2F2168058D0062F163 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4C11B0E216805880062F163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C11B18216805880062F163 /* ViewController.swift in Sources */,
+				F4C11B16216805880062F163 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C11B222168058D0062F163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C11B2B2168058D0062F163 /* HueAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4C11B2D2168058D0062F163 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4C11B362168058D0062F163 /* HueAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4C11B282168058D0062F163 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4C11B11216805880062F163 /* HueApp */;
+			targetProxy = F4C11B272168058D0062F163 /* PBXContainerItemProxy */;
+		};
+		F4C11B332168058D0062F163 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4C11B11216805880062F163 /* HueApp */;
+			targetProxy = F4C11B322168058D0062F163 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4C11B19216805880062F163 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4C11B1A216805880062F163 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4C11B1E2168058D0062F163 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4C11B1F2168058D0062F163 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4C11B382168058D0062F163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4C11B392168058D0062F163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4C11B3B2168058D0062F163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HueApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justin.HueApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4C11B3C2168058D0062F163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HueApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justin.HueApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4C11B3E2168058D0062F163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HueAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justin.HueAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HueApp.app/HueApp";
+			};
+			name = Debug;
+		};
+		F4C11B3F2168058D0062F163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HueAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justin.HueAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HueApp.app/HueApp";
+			};
+			name = Release;
+		};
+		F4C11B412168058D0062F163 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HueAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justin.HueAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HueApp;
+			};
+			name = Debug;
+		};
+		F4C11B422168058D0062F163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HueAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.justin.HueAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = HueApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4C11B0D216805880062F163 /* Build configuration list for PBXProject "HueApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C11B382168058D0062F163 /* Debug */,
+				F4C11B392168058D0062F163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4C11B3A2168058D0062F163 /* Build configuration list for PBXNativeTarget "HueApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C11B3B2168058D0062F163 /* Debug */,
+				F4C11B3C2168058D0062F163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4C11B3D2168058D0062F163 /* Build configuration list for PBXNativeTarget "HueAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C11B3E2168058D0062F163 /* Debug */,
+				F4C11B3F2168058D0062F163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4C11B402168058D0062F163 /* Build configuration list for PBXNativeTarget "HueAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4C11B412168058D0062F163 /* Debug */,
+				F4C11B422168058D0062F163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4C11B0A216805880062F163 /* Project object */;
+}
