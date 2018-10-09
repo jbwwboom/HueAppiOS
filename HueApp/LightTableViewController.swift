@@ -28,6 +28,8 @@ class LightTableViewController: UITableViewController, LightApiManagerDelegate {
     }
     
     func didReceiveNewLight(light: Light) {
+        self.lights.append(light)
+        self.tableView.reloadData()
     }
 
     // MARK: - Table view data source
@@ -39,12 +41,12 @@ class LightTableViewController: UITableViewController, LightApiManagerDelegate {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return lights.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
+        let cell = tableView.dequeueReusableCell(withIdentifier: "hueIdentifier", for: indexPath)
 
         cell.textLabel?.text = lights[indexPath.row].name
         cell.detailTextLabel?.text = lights[indexPath.row].modelId

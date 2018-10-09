@@ -9,5 +9,5 @@
 import Foundation
 
 class Config{
-    static var API_URL = "http://192.168.178.80:80/api/newdeveloper/lights"
+    static var API_URL = "http://192.168.178.24:3000/lights"
 }

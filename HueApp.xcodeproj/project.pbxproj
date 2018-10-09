@@ -50,6 +50,7 @@
 		9E0AEE412173158F54DDBACA /* Pods-HueAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HueAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HueAppUITests/Pods-HueAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		B57535C3BCE83A91BD9C5B15 /* Pods-HueAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HueAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HueAppUITests/Pods-HueAppUITests.release.xcconfig"; sourceTree = "<group>"; };
 		E20D7351B99AB20BC4CE9E4C /* Pods_HueAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HueAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F493DBAB216D0B100006395A /* Hue.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Hue.json; sourceTree = "<group>"; };
 		F4C11B12216805880062F163 /* HueApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HueApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4C11B15216805880062F163 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4C11B1A216805880062F163 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -155,6 +156,7 @@
 				F4C11B4721680EB50062F163 /* LightApiManager.swift */,
 				F4C11B4921680F270062F163 /* LightApiManagerDelegate.swift */,
 				F4C11B4B21680F8A0062F163 /* Config.swift */,
+				F493DBAB216D0B100006395A /* Hue.json */,
 			);
 			path = HueApp;
 			sourceTree = "<group>";

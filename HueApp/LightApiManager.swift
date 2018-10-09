@@ -21,15 +21,24 @@ class LightApiManager{
     func getLights(){
         Alamofire.request(url, method: .get, parameters: params, headers: headers).responseJSON{
             response in
-            if let json = response.result.value as? [Any]{
-                for i in 0..<json.count {
-                    let object = json[i] as! [String:Any]
-                    //self.delegate?.didReceiveNewLight(light : light)
+            switch response.result {
+            case .success:
+                let json = response.result.value as! [String:[String:Any]]
+                for (key, value) in json{
+                    let name = value["name"] as! String
+                    let modelId = value["modelid"] as! String
+                    let state = value["state"] as! [String:Any]
+                    let on = state["on"] as! Bool
+                    let hue = state["hue"] as! Int
+                    let sat = state["sat"] as! Int
+                    let bri = state["bri"] as! Int
+                    let light = Light(id: Int(key)!, modelId: modelId, name: name, on: on, hue: hue, saturation: sat, brightness: bri)
+                    self.delegate?.didReceiveNewLight(light: light)
                 }
-            }else{
-                print("error JSON")
+                print("no error")
+            case .failure(let error):
+                print(error)
             }
         }
     }
-    
 }

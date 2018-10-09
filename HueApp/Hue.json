@@ -1,0 +1,226 @@
+{
+    "1": {
+        "state": {
+            "on": true,
+            "bri": 254,
+            "hue": 5000,
+            "sat": 254,
+            "xy": [
+                0,
+                0
+            ],
+            "ct": 0,
+            "alert": "none",
+            "effect": "none",
+            "colormode": "xy",
+            "reachable": true
+        },
+        "type": "Extended color light",
+        "name": "New Light - 7",
+        "modelid": "LCT001",
+        "swversion": "65003148",
+        "uniqueid": "2c:19:da:9b:b8:47:14:02-05",
+        "pointsymbol": {
+            "1": "none",
+            "2": "none",
+            "3": "none",
+            "4": "none",
+            "5": "none",
+            "6": "none",
+            "7": "none",
+            "8": "none"
+        }
+    },
+    "2": {
+        "state": {
+            "on": true,
+            "bri": 254,
+            "hue": 23536,
+            "sat": 144,
+            "xy": [
+                0.346,
+                0.3568
+            ],
+            "ct": 201,
+            "alert": "none",
+            "effect": "none",
+            "colormode": "hs",
+            "reachable": true
+        },
+        "type": "Extended color light",
+        "name": "Hue Lamp 2",
+        "modelid": "LCT001",
+        "swversion": "65003148",
+        "uniqueid": "00:17:88:01:00:d4:12:08-0b",
+        "pointsymbol": {
+            "1": "none",
+            "2": "none",
+            "3": "none",
+            "4": "none",
+            "5": "none",
+            "6": "none",
+            "7": "none",
+            "8": "none"
+        }
+    },
+    "3": {
+        "state": {
+            "on": true,
+            "bri": 254,
+            "hue": 5000,
+            "sat": 254,
+            "xy": [
+                0,
+                0
+            ],
+            "ct": 0,
+            "alert": "none",
+            "effect": "none",
+            "colormode": "xy",
+            "reachable": true
+        },
+        "type": "Extended color light",
+        "name": "New Light - 4",
+        "modelid": "LCT001",
+        "swversion": "65003148",
+        "uniqueid": "78:71:00:64:5b:12:37:37-c1",
+        "pointsymbol": {
+            "1": "none",
+            "2": "none",
+            "3": "none",
+            "4": "none",
+            "5": "none",
+            "6": "none",
+            "7": "none",
+            "8": "none"
+        }
+    },
+    "4": {
+        "state": {
+            "on": true,
+            "bri": 254,
+            "hue": 4444,
+            "sat": 254,
+            "xy": [
+                0,
+                0
+            ],
+            "ct": 0,
+            "alert": "none",
+            "effect": "none",
+            "colormode": "hs",
+            "reachable": true
+        },
+        "type": "Extended color light",
+        "name": "Hue Lamp 1",
+        "modelid": "LCT001",
+        "swversion": "65003148",
+        "uniqueid": "00:17:88:01:00:d4:12:08-0a",
+        "pointsymbol": {
+            "1": "none",
+            "2": "none",
+            "3": "none",
+            "4": "none",
+            "5": "none",
+            "6": "none",
+            "7": "none",
+            "8": "none"
+        }
+    },
+    "7": {
+        "state": {
+            "on": true,
+            "bri": 254,
+            "hue": 65136,
+            "sat": 254,
+            "xy": [
+                0.346,
+                0.3568
+            ],
+            "ct": 201,
+            "alert": "none",
+            "effect": "none",
+            "colormode": "hs",
+            "reachable": true
+        },
+        "type": "Extended color light",
+        "name": "Hue Lamp 3",
+        "modelid": "LCT001",
+        "swversion": "65003148",
+        "uniqueid": "00:17:88:01:00:d4:12:08-0c",
+        "pointsymbol": {
+            "1": "none",
+            "2": "none",
+            "3": "none",
+            "4": "none",
+            "5": "none",
+            "6": "none",
+            "7": "none",
+            "8": "none"
+        }
+    },
+    "8": {
+        "state": {
+            "on": true,
+            "bri": 254,
+            "hue": 5000,
+            "sat": 254,
+            "xy": [
+                0,
+                0
+            ],
+            "ct": 0,
+            "alert": "none",
+            "effect": "none",
+            "colormode": "xy",
+            "reachable": true
+        },
+        "type": "Extended color light",
+        "name": "New Light - 6",
+        "modelid": "LCT001",
+        "swversion": "65003148",
+        "uniqueid": "e6:71:17:b3:a4:c8:79:94-7c",
+        "pointsymbol": {
+            "1": "none",
+            "2": "none",
+            "3": "none",
+            "4": "none",
+            "5": "none",
+            "6": "none",
+            "7": "none",
+            "8": "none"
+        }
+    },
+    "9": {
+        "state": {
+            "on": true,
+            "bri": 254,
+            "hue": 5000,
+            "sat": 254,
+            "xy": [
+                0,
+                0
+            ],
+            "ct": 0,
+            "alert": "none",
+            "effect": "none",
+            "colormode": "xy",
+            "reachable": true
+        },
+        "type": "Extended color light",
+        "name": "New Light - 5",
+        "modelid": "LCT001",
+        "swversion": "65003148",
+        "uniqueid": "2b:08:68:39:d9:ad:02:32-04",
+        "pointsymbol": {
+            "1": "none",
+            "2": "none",
+            "3": "none",
+            "4": "none",
+            "5": "none",
+            "6": "none",
+            "7": "none",
+            "8": "none"
+        }
+    }
+}
