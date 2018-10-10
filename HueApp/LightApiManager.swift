@@ -45,6 +45,7 @@ class LightApiManager{
         let putUrl = Config.API_URL + "/\(id)/state"
         let headers : [String:String] = ["Content-Type":"application/json"]
         
+        //Added JSON encoding to make the PUT call work.
         Alamofire.request(putUrl, method: .put, parameters: params, encoding: JSONEncoding.default, headers: headers).responseJSON{
             response in
             switch response.result {
@@ -57,6 +58,7 @@ class LightApiManager{
     }
     
     func putOn(id : Int, on : Bool){
+        //Hard cast to bool otherwise on becomes a 0 or 1 instead of true or false
         let params: [String:Bool] = ["on": on]
         self.putCall(id: id, params: params)
     }
