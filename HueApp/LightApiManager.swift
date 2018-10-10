@@ -15,10 +15,9 @@ class LightApiManager{
     
     var delegate : LightApiManagerDelegate?
     
-    let headers : [String:String] = [:]
-    let params : [String:String] = [:]
-    
     func getLights(){
+        let headers : [String:String] = [:]
+        let params : [String:String] = [:]
         Alamofire.request(url, method: .get, parameters: params, headers: headers).responseJSON{
             response in
             switch response.result {
@@ -40,5 +39,40 @@ class LightApiManager{
                 print(error)
             }
         }
+    }
+    
+    func putCall(id : Int, params : Parameters){
+        let putUrl = Config.API_URL + "/\(id)/state"
+        let headers : [String:String] = ["Content-Type":"application/json"]
+        
+        Alamofire.request(putUrl, method: .put, parameters: params, encoding: JSONEncoding.default, headers: headers).responseJSON{
+            response in
+            switch response.result {
+            case .success:
+                print("\(response.result.value) no error")
+            case .failure(let error):
+                print(error)
+            }
+        }
+    }
+    
+    func putOn(id : Int, on : Bool){
+        let params = ["on": on]
+        self.putCall(id: id, params: params)
+    }
+    
+    func putHue(id : Int, hue : Int){
+        let params = ["hue": hue]
+        self.putCall(id: id, params: params)
+    }
+    
+    func putSaturation(id : Int, sat : Int){
+        let params = ["sat": sat]
+        self.putCall(id: id, params: params)
+    }
+    
+    func putBrightness(id : Int, bri : Int){
+        let params = ["bri": bri]
+        self.putCall(id: id, params: params)
     }
 }
