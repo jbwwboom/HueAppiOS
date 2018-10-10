@@ -22,6 +22,9 @@ class LightApiManager{
             response in
             switch response.result {
             case .success:
+                //Parsing the json to a String dict with a String:Any dict
+                //This is done so the key is the id of the light and the values the variables of the light
+                //This makes it easy to parse the data of the lights and get the id for the put requests.
                 let json = response.result.value as! [String:[String:Any]]
                 for (key, value) in json{
                     let name = value["name"] as! String

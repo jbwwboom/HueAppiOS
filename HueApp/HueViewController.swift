@@ -43,7 +43,7 @@ class HueViewController: UIViewController {
             satSlider.setValue(Float(light.saturation!), animated: true)
             satLabel.text = "Saturation: \(light.saturation!)"
             briSlider.setValue(Float(light.brightness!), animated: true)
-            briLabel.text = "Brighness: \(light.brightness!)"
+            briLabel.text = "Brightness: \(light.brightness!)"
         }
     }
     
