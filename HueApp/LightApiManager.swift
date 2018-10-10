@@ -57,7 +57,7 @@ class LightApiManager{
     }
     
     func putOn(id : Int, on : Bool){
-        let params = ["on": on]
+        let params: [String:Bool] = ["on": on]
         self.putCall(id: id, params: params)
     }
     
